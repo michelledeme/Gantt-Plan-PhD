@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="PhD" company="" webLink="http://" view-date="2017-06-18" view-index="0" gantt-divider-location="354" resource-divider-location="300" version="2.8.5" locale="en_AU">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="209" order="0"/>
+        <field id="tpd4" name="Begin date" width="45" order="1"/>
+        <field id="tpd5" name="End date" width="81" order="2"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelLeft" value="name"/>
+        <option id="taskLabelRight" value=""/>
+        <timeline><![CDATA[1]]></timeline>
+        <option id="color.recent"><![CDATA[#ccccff #9999ff #ff0000 #006666 #ffff00 #ff00ff #999900 #9933ff #3300ff #33ff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="SP Increase for Pgs" color="#00ffff" meeting="false" start="2017-05-03" duration="101" complete="0" expand="true">
+            <task id="1" name="Diff set growth" color="#8cb6ce" meeting="false" start="2017-05-03" duration="8" complete="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" name="Inoculation and Incubation" color="#8cb6ce" meeting="false" start="2017-05-11" duration="4" complete="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="post-inoculation growth" color="#00ffff" meeting="false" start="2017-05-15" duration="13" complete="0" expand="true">
+                <depend id="12" type="3" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="Scoring" color="#00ffff" meeting="false" start="2017-05-24" duration="4" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="18" name="First SP inoculation" color="#00ffff" meeting="false" start="2017-05-29" duration="4" complete="0" expand="true">
+                <notes><![CDATA[Select a SP, place in pop bottle in water bath overnight.]]></notes>
+                <task id="41" name="Select SP and incubation" color="#00ffff" meeting="false" start="2017-05-29" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Select the SP, place in a pop bottle in the water bath for the day and overnight.]]></notes>
+                    <depend id="43" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="43" name="Drying, inoculation, incubation" color="#00ffff" meeting="false" start="2017-05-30" duration="3" complete="0" expand="true">
+                    <notes><![CDATA[Let pot dry out in the morning by placing it in a floral tube in the water bench.
+
+In the afternoon, misted the air above to hopefully drop any spores, wiped the bench with ethanol, put on gloves and wiped them with ethanol, placed a paper towel on the bench and placed one pot on it. Removed the plastic cylinder. Got a pot of young BWR that had been brought to the room covered in a clean plastic bottle (to hopefully prevent contamination) and incovered it next to the pot. placed both on the paper towel just in case. Ripped off the leaf with the single pustule on it, and gently rubbed it on most of the leaves of the new pot.
+
+Covered the new pot in a soda bottle, left to incubate in the water tray for 2 days.]]></notes>
+                    <depend id="47" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="47" name="First SP Growth" color="#00ffff" meeting="false" start="2017-06-02" duration="19" complete="0" expand="true">
+                <notes><![CDATA[cover pot with plastic bag, place on petri dish lid in a growth room. 
+
+Leave to grow for 14 days. I made the mistake of letting it go for 20 days because I didn't plan properly.]]></notes>
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="56" name="Second SP inoculation" color="#00ffff" meeting="false" start="2017-06-21" duration="5" complete="0" expand="true">
+                <task id="57" name="Select SP and incubation" color="#00ffff" meeting="false" start="2017-06-21" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Ashlea helped me choose a SP. Cut back extra tissue, placed in a pop bottle in the water bath overnight.]]></notes>
+                    <depend id="64" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="64" name="SP Drying" color="#00ffff" meeting="false" start="2017-06-22" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Took SP out of water bath, placed in floral tube on a paper towel on a rack for 1 day and overnight.]]></notes>
+                    <depend id="67" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="67" name="SP inoculation, incubation, drying" color="#00ffff" meeting="false" start="2017-06-23" duration="3" complete="0" expand="true">
+                    <notes><![CDATA[Inoculate new BWR plants with SP, cover in a pop bottle, place in water bath over the weekend.
+
+Monday - dry for a 1/2 day, bag them, place in growth room.]]></notes>
+                    <depend id="73" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="73" name="Second SP Growth" color="#00ffff" meeting="false" start="2017-06-26" duration="14" complete="0" expand="true">
+                <notes><![CDATA[Monday - take out of soda bottles, dry for a 1 day in floral tubes, then bag and place in growth room.
+
+Place in growth room D11 for 12-14 days, Just have a look when pustules look ready to increase.]]></notes>
+            </task>
+            <task id="146" name="Plants for 1st Increase" meeting="false" start="2017-06-23" duration="13" complete="0" expand="true">
+                <task id="147" name="Sowing/ Initial Growth" color="#00ffff" meeting="false" start="2017-06-23" duration="4" complete="0" expand="true">
+                    <notes><![CDATA[Allow seeds to germinate for 3-4 days before dwarfing treatment. Should trerat when the coleoptile is up, just before 1st leaf emerges.]]></notes>
+                    <depend id="148" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="148" name="Dwarfing treatment" color="#00ffff" meeting="false" start="2017-06-27" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Treat seedlings with malic hydrazide]]></notes>
+                    <depend id="152" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="152" name="Dwarf Growth" color="#00ffff" meeting="false" start="2017-06-28" duration="8" complete="0" expand="true">
+                    <notes><![CDATA[Allow treated plants to grow for 7-9 days after treatment before inoculation with rust.
+
+My mistake - plants are ready a bit too early here.]]></notes>
+                </task>
+            </task>
+            <task id="158" name="1st increase inoculation" meeting="false" start="2017-07-06" duration="4" complete="0" expand="true">
+                <task id="159" name="Incubate overnight" color="#00ffff" meeting="false" start="2017-07-06" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Place plants with second SP in pop bottles overnight in pop bottles in the water bath to germinate anything on the leaves and refresh the pustules]]></notes>
+                    <depend id="160" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="160" name="Inoculate and incubaste dwarfed plants" color="#00ffff" meeting="false" start="2017-07-07" duration="3" complete="0" expand="true">
+                    <notes><![CDATA[Inoculate maleic hydrazide-treated plants, place in large plastic tubes for 2 days]]></notes>
+                    <depend id="168" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="168" name="1st Increase Growth" color="#00ffff" meeting="false" start="2017-07-10" duration="15" complete="0" expand="true">
+                <notes><![CDATA[Let Rust grow for 12-14 days before next increase.]]></notes>
+            </task>
+            <task id="753" name="Flip sporulating plants sideways - ask Ashlea" color="#00ffff" meeting="false" start="2017-07-14" duration="1" complete="0" expand="true"/>
+            <task id="178" name="Plants for 2nd Increase" color="#000000" meeting="false" start="2017-07-13" duration="13" complete="0" expand="true">
+                <task id="180" name="Sowing/ Initial Growth" color="#00ffff" meeting="false" start="2017-07-13" duration="4" complete="0" expand="true">
+                    <notes><![CDATA[Allow seeds to germinate for 3-4 days before dwarfing treatment. Should trerat when the coleoptile is up, just before 1st leaf emerges.]]></notes>
+                    <depend id="182" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="182" name="Dwarfing treatment" color="#00ffff" meeting="false" start="2017-07-17" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Treat seedlings with malic hydrazide]]></notes>
+                    <depend id="184" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="184" name="Dwarf Growth" color="#00ffff" meeting="false" start="2017-07-18" duration="8" complete="0" expand="true">
+                    <notes><![CDATA[Allow treated plants to grow for 7-9 days after treatment before inoculation with rust.
+
+My mistake - plants are ready a bit too early here.]]></notes>
+                </task>
+            </task>
+            <task id="196" name="2nd increase inoculation" color="#000000" meeting="false" start="2017-07-24" duration="4" complete="0" expand="true">
+                <depend id="207" type="2" difference="0" hardness="Strong"/>
+                <task id="198" name="incubate overnight" color="#00ffff" meeting="false" start="2017-07-24" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Place plants with second SP in pop bottles overnight in pop bottles in the water bath to germinate anything on the leaves and refresh the pustules]]></notes>
+                    <depend id="200" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="200" name="Inoculate and incubate 2d" color="#00ffff" meeting="false" start="2017-07-25" duration="2" complete="0" expand="true">
+                    <notes><![CDATA[Inoculate maleic hydrazide-treated plants, place in large plastic tubes for 2 days]]></notes>
+                    <depend id="202" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="202" name="Drying" color="#00ffff" meeting="false" start="2017-07-27" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Leave rust to dry in an open tube for a day (?)]]></notes>
+                    <depend id="207" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="207" name="2nd Increase Growth" color="#00ffff" meeting="false" start="2017-07-28" duration="14" complete="0" expand="true">
+                <notes><![CDATA[Allow plants from the second increase to grow for 14 days]]></notes>
+                <depend id="212" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="212" name="Harvest Rust" color="#00ffff" meeting="false" start="2017-08-11" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="86" name="SP Increase for Scabrum Rust" color="#ff00ff" meeting="false" project="true" start="2017-06-09" duration="82" complete="0" expand="true">
+            <task id="87" name="Diff Set Growth" color="#ff00ff" meeting="false" start="2017-06-09" duration="14" complete="0" expand="true">
+                <notes><![CDATA[Starting from the Second Diff set (1st one failed)]]></notes>
+                <depend id="92" type="3" difference="0" hardness="Strong"/>
+            </task>
+            <task id="92" name="Scoring and SP Selection" color="#ff00ff" meeting="false" start="2017-06-22" duration="1" complete="0" expand="true">
+                <depend id="98" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="111" name="SP Selection and inoculation" meeting="false" start="2017-06-23" duration="13" complete="0" expand="true">
+                <task id="98" name="SP Incubation" color="#ff00ff" meeting="false" start="2017-06-23" duration="3" complete="0" expand="true">
+                    <notes><![CDATA[Place SP in soda bottle in waterbath over the weekend. Put in on friday night, take out monday morning.]]></notes>
+                    <depend id="103" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="103" name="SP Drying" color="#ff00ff" meeting="false" start="2017-06-26" duration="3" complete="0" expand="true">
+                    <notes><![CDATA[Dry all 4 SP's in floral tubes for half a day, then place in bags and put in a growth rom (D11) for 3 days.]]></notes>
+                    <depend id="107" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="107" name="SP storage" color="#ff00ff" meeting="false" start="2017-06-29" duration="7" complete="0" expand="true">
+                    <notes><![CDATA[Tape SP to a labeled pot tag.
+
+Put it in a glass vial
+
+Keep it in the seed room where my boxes are until next plants are ready.]]></notes>
+                </task>
+            </task>
+            <task id="99" name="Grow Plants for SP inoculation" color="#ff00ff" meeting="false" start="2017-06-23" duration="13" complete="0" expand="true">
+                <notes><![CDATA[Growth for 1st SP inoculation]]></notes>
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="113" name="SP Inoculation" color="#ff00ff" meeting="false" start="2017-07-06" duration="5" complete="0" expand="true">
+                <task id="116" name="Incubate overnight" color="#ff00ff" meeting="false" start="2017-07-06" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Inoculate plants using pustules on pot tags
+
+Place in Soda bottles in the water bath, inocubate for 2d]]></notes>
+                    <depend id="117" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="117" name="Drying" color="#ff00ff" meeting="false" start="2017-07-07" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Dry plants in a floral tube for most of the day, then bag them and place them into D11 at the end of the day.]]></notes>
+                    <depend id="695" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="695" name="inoc + incubate" color="#ff00ff" meeting="false" start="2017-07-08" duration="2" complete="0" expand="true">
+                    <depend id="701" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="701" name="Drying" color="#ff00ff" meeting="false" start="2017-07-10" duration="1" complete="0" expand="true">
+                    <depend id="118" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="118" name="SP Growth" color="#ff00ff" meeting="false" start="2017-07-11" duration="14" complete="0" expand="true"/>
+            <task id="128" name="Grow Plants for 1st Increase" color="#ff00ff" meeting="false" start="2017-07-10" duration="14" complete="0" expand="true">
+                <task id="133" name="Initial Growth" color="#ff00ff" meeting="false" start="2017-07-10" duration="4" complete="0" expand="true">
+                    <notes><![CDATA[Prior to dwarfing]]></notes>
+                    <depend id="136" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="136" name="Dwarfing treatment" color="#ff00ff" meeting="false" start="2017-07-14" duration="1" complete="0" expand="true">
+                    <depend id="138" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="138" name="Growth after Dwarfing" color="#ff00ff" meeting="false" start="2017-07-15" duration="9" complete="0" expand="true">
+                    <notes><![CDATA[Plants ready 7-9 days after treatment with malic hydrazide.]]></notes>
+                    <depend id="277" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="277" name="1st increase Inoculation" color="#ff00ff" meeting="false" start="2017-07-24" duration="4" complete="0" expand="true">
+                <task id="286" name="Incubate overnight" color="#ff00ff" meeting="false" start="2017-07-24" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Leave plants with pustules overnight to incubate in a pop bottle]]></notes>
+                    <depend id="287" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="287" name="Dry and Inoculate and incubate" color="#ff00ff" meeting="false" start="2017-07-25" duration="3" complete="0" expand="true">
+                    <notes><![CDATA[Dry plants for a day, then inoculate onto new plants, and leave in high humidity to incubate over 2d]]></notes>
+                    <depend id="297" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="297" name="1st increase Growth" color="#ff00ff" meeting="false" start="2017-07-28" duration="14" complete="0" expand="true"/>
+            <task id="302" name="Grow plants for 2nd Increase" color="#ff00ff" meeting="false" start="2017-07-28" duration="13" complete="0" expand="true">
+                <task id="304" name="Initial Growth" color="#ff00ff" meeting="false" start="2017-07-28" duration="4" complete="0" expand="true">
+                    <notes><![CDATA[Prior to dwarfing]]></notes>
+                    <depend id="306" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="306" name="Dwarfing treatment" color="#ff00ff" meeting="false" start="2017-08-01" duration="1" complete="0" expand="true">
+                    <depend id="308" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="308" name="Growth after Dwarfing" color="#ff00ff" meeting="false" start="2017-08-02" duration="8" complete="0" expand="true">
+                    <notes><![CDATA[Plants ready 7-9 days after treatment with malic hydrazide.]]></notes>
+                    <depend id="340" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="340" name="2nd increase Inoculation" color="#ff00ff" meeting="false" start="2017-08-10" duration="4" complete="0" expand="true">
+                <task id="343" name="Incubate overnight" color="#ff00ff" meeting="false" start="2017-08-10" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Leave plants with pustules overnight to incubate in a pop bottle]]></notes>
+                    <depend id="346" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="346" name="Dry, Inoculate and incubate" color="#ff00ff" meeting="false" start="2017-08-11" duration="3" complete="0" expand="true">
+                    <notes><![CDATA[Dry plants for a day, then inoculate onto new plants, and leave in high humidity to incubate over 2d]]></notes>
+                    <depend id="353" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="353" name="2nd Increase Growth" color="#ff00ff" meeting="false" start="2017-08-14" duration="14" complete="0" expand="true">
+                <depend id="357" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="357" name="Harvest Rust" color="#ff00ff" meeting="false" start="2017-08-28" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="361" name="RIL Lines" color="#ffff00" meeting="false" start="2017-05-25" duration="137" complete="0" expand="true">
+            <task id="364" name="1st Planting + Growth" color="#ffff00" meeting="false" start="2017-05-25" duration="5" complete="0" expand="true">
+                <depend id="574" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="574" name="Thinning" color="#ffff00" meeting="false" start="2017-05-30" duration="1" complete="0" expand="true">
+                <depend id="575" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="575" name="Grow to 2nd leaf" color="#ffff00" meeting="false" start="2017-05-31" duration="7" complete="0" expand="true"/>
+            <task id="576" name="Sampling + DNA extraction" color="#ffff00" meeting="false" start="2017-06-07" duration="1" complete="0" expand="true"/>
+            <task id="606" name="Transplant to GEF2 + Growth" color="#ffff00" meeting="false" start="2017-06-09" duration="90" complete="0" expand="true"/>
+            <task id="608" name="Re-plant" color="#ffff00" meeting="false" start="2017-06-09" duration="12" complete="0" expand="true">
+                <depend id="610" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="610" name="Thinning" color="#ffff00" meeting="false" start="2017-06-21" duration="1" complete="0" expand="true">
+                <depend id="613" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="613" name="Grow to 2nd leaf" color="#ffff00" meeting="false" start="2017-06-22" duration="4" complete="0" expand="true">
+                <depend id="617" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="617" name="2nd Sampling + DNA Extraction" color="#ffff00" meeting="false" start="2017-06-26" duration="1" complete="0" expand="true">
+                <depend id="643" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="643" name="Transplant to 8&quot; pots" color="#ffff00" meeting="false" start="2017-06-27" duration="9" complete="0" expand="true">
+                <depend id="646" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="646" name="Move out to GEF2 + growth" color="#ffff00" meeting="false" start="2017-07-06" duration="80" complete="0" expand="true"/>
+            <task id="624" name="3rd re-plant" color="#ffff00" meeting="false" start="2017-06-26" duration="9" complete="0" expand="true"/>
+            <task id="631" name="thinning" color="#ffff00" meeting="false" start="2017-07-05" duration="1" complete="0" expand="true"/>
+            <task id="634" name="Grow to 2nd leaf" color="#ffff00" meeting="false" start="2017-07-06" duration="4" complete="0" expand="true"/>
+            <task id="640" name="Sampling + DNA Extraction" color="#ffff00" meeting="false" start="2017-07-10" duration="1" complete="0" expand="true"/>
+            <task id="665" name="Put in 8&quot; + Acclimate" color="#ffff00" meeting="false" start="2017-07-12" duration="9" complete="0" expand="true"/>
+            <task id="668" name="Move to GEF2 + Growth" color="#ffff00" meeting="false" start="2017-07-21" duration="80" complete="0" expand="true"/>
+        </task>
+        <task id="365" name="Breeding Populations" color="#9999ff" meeting="false" start="2017-06-14" duration="142" complete="0" expand="true">
+            <task id="422" name="Line E x1" color="#ccccff" meeting="false" start="2017-06-14" duration="88" complete="0" expand="true">
+                <task id="463" name="Sow Line Ex1" color="#9999ff" meeting="false" start="2017-06-14" duration="1" complete="0" expand="true">
+                    <depend id="382" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="382" name="Inoculate + Incubate Pgs" color="#9999ff" meeting="false" start="2017-06-15" duration="3" complete="0" expand="true">
+                    <depend id="384" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="384" name="Grow Rust" color="#9999ff" meeting="false" start="2017-06-18" duration="14" complete="0" expand="true">
+                    <depend id="387" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="387" name="Transplant + Grow Susceptibles" color="#9999ff" meeting="false" start="2017-07-02" duration="70" complete="0" expand="true"/>
+            </task>
+            <task id="367" name="Line E x2" color="#9999ff" meeting="false" start="2017-06-21" duration="93" complete="0" expand="true">
+                <task id="478" name="Plant Line Ex2" color="#9999ff" meeting="false" start="2017-06-21" duration="9" complete="0" expand="true">
+                    <depend id="391" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="391" name="Inoculate + Incubate Pgs" color="#9999ff" meeting="false" start="2017-06-30" duration="3" complete="0" expand="true">
+                    <depend id="393" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="393" name="Grow Rust" color="#ff0000" meeting="false" start="2017-07-03" duration="14" complete="0" expand="true"/>
+                <task id="395" name="Re-inoculate and incubate" color="#9999ff" meeting="false" start="2017-07-07" duration="3" complete="0" expand="true">
+                    <depend id="761" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="761" name="Grow rust" color="#9999ff" meeting="false" start="2017-07-10" duration="14" complete="0" expand="true"/>
+                <task id="762" name="Transplant + Grow Susceptibles" color="#9999ff" meeting="false" start="2017-07-24" duration="60" complete="0" expand="true"/>
+            </task>
+            <task id="368" name="Line E x3" color="#9999ff" meeting="false" start="2017-06-28" duration="96" complete="0" expand="true">
+                <task id="488" name="Plant Line Ex3" color="#9999ff" meeting="false" start="2017-06-28" duration="9" complete="0" expand="true">
+                    <depend id="407" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="407" name="Inoculate + Incubate Pgs" color="#9999ff" meeting="false" start="2017-07-07" duration="3" complete="0" expand="true">
+                    <depend id="409" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="409" name="Grow Rust" color="#9999ff" meeting="false" start="2017-07-10" duration="14" complete="0" expand="true">
+                    <depend id="411" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="411" name="Transplant + Grow Susceptibles" color="#9999ff" meeting="false" start="2017-07-24" duration="70" complete="0" expand="true"/>
+            </task>
+            <task id="369" name="Line E x4" color="#9999ff" meeting="false" start="2017-07-06" duration="95" complete="0" expand="true">
+                <task id="493" name="Plant Line Ex4" color="#9999ff" meeting="false" start="2017-07-06" duration="8" complete="0" expand="true">
+                    <depend id="417" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="417" name="Inoculate + Incubate Pgs" color="#9999ff" meeting="false" start="2017-07-14" duration="3" complete="0" expand="true">
+                    <depend id="419" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="419" name="Grow Rust" color="#9999ff" meeting="false" start="2017-07-17" duration="14" complete="0" expand="true">
+                    <depend id="421" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="421" name="Transplant + Grow Susceptibles" color="#9999ff" meeting="false" start="2017-07-31" duration="70" complete="0" expand="true"/>
+            </task>
+            <task id="374" name="Grow MCB Males x1" color="#9999ff" meeting="false" start="2017-06-27" duration="90" complete="0" expand="true">
+                <notes><![CDATA[Males (DK's, Line A, B, etc, Stuff from Gary) all things to breed resistance genes into Line E sown directly into pots out in the GEF greenhouses, 3 seeds to a pot, with saphire fingicidal fertilizer added to each pot]]></notes>
+            </task>
+            <task id="377" name="Grow MCB Males x2" color="#9999ff" meeting="false" start="2017-07-06" duration="90" complete="0" expand="true">
+                <notes><![CDATA[Males (DK's, Line A, B, etc, Stuff from Gary) all things to breed resistance genes into Line E sown directly into pots out in the GEF greenhouses, 3 seeds to a pot, with saphire fingicidal fertilizer added to each pot]]></notes>
+            </task>
+            <task id="424" name="II 82.1206.3 and Rye lines" color="#9999ff" meeting="false" start="2017-06-14" duration="92" complete="0" expand="true">
+                <task id="501" name="Plant + Grow II 81.1206.3" color="#3300ff" meeting="false" start="2017-06-14" duration="12" complete="0" expand="true">
+                    <depend id="426" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="426" name="Put in 8&quot; + acclimate" color="#3300ff" meeting="false" start="2017-06-26" duration="10" complete="0" expand="true">
+                    <depend id="505" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="505" name="Move to GEF + Growth" color="#3300ff" meeting="false" start="2017-07-06" duration="70" complete="0" expand="true"/>
+            </task>
+            <task id="511" name="MCB Diff Set Screening" meeting="false" start="2017-06-23" duration="132" complete="0" expand="true">
+                <task id="429" name="Plant 4 sets of MCB" color="#9999ff" meeting="false" start="2017-06-23" duration="9" complete="0" expand="true">
+                    <depend id="431" type="2" difference="4" hardness="Strong"/>
+                </task>
+                <task id="431" name="Inoculate" color="#9999ff" meeting="false" start="2017-07-06" duration="3" complete="0" expand="true">
+                    <depend id="441" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="441" name="Grow Rust" color="#9999ff" meeting="false" start="2017-07-09" duration="15" complete="0" expand="true">
+                    <depend id="444" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="444" name="Score Rust" color="#9999ff" meeting="false" start="2017-07-24" duration="1" complete="0" expand="true">
+                    <depend id="447" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="447" name="Select, re-plant, acclimate" color="#9999ff" meeting="false" start="2017-07-25" duration="10" complete="0" expand="true">
+                    <depend id="450" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="450" name="Move to GEF + Growth" color="#9999ff" meeting="false" start="2017-08-04" duration="90" complete="0" expand="true"/>
+                <task id="763" name="Plant 4 diff sets" color="#9999ff" meeting="false" start="2017-07-10" duration="8" complete="0" expand="true">
+                    <depend id="765" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="765" name="Inoculate with same rust packets" color="#9999ff" meeting="false" start="2017-07-18" duration="2" complete="0" expand="true">
+                    <depend id="768" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="768" name="Grow Rust" color="#9999ff" meeting="false" start="2017-07-20" duration="14" complete="0" expand="true">
+                    <depend id="771" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="771" name="Score Rust" color="#9999ff" meeting="false" start="2017-08-03" duration="1" complete="0" expand="true">
+                    <depend id="774" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="774" name="Decide if any re-plants need to be adjusted." color="#9999ff" meeting="false" start="2017-08-04" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="777" name="MCB Planting" color="#ccccff" meeting="false" start="2017-06-27" duration="83" complete="0" expand="true">
+                <task id="780" name="Plant + Grow Set 1" color="#ccccff" meeting="false" start="2017-06-27" duration="60" complete="0" expand="true"/>
+                <task id="781" name="Plant + Grow Set 2" color="#ccccff" meeting="false" start="2017-07-06" duration="60" complete="0" expand="true"/>
+                <task id="782" name="Plant + Grow Set 3" color="#ccccff" meeting="false" start="2017-07-12" duration="60" complete="0" expand="true"/>
+                <task id="783" name="Plant + Grow Set 4" color="#ccccff" meeting="false" start="2017-07-20" duration="60" complete="0" expand="true"/>
+            </task>
+            <task id="524" name="Selfing Rye" color="#000000" meeting="false" start="2017-06-29" duration="101" complete="0" expand="true">
+                <task id="525" name="Plant out trays" color="#9933ff" meeting="false" start="2017-06-29" duration="13" complete="0" expand="true">
+                    <depend id="526" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="526" name="Put in 8&quot; + acclimate" color="#9933ff" meeting="false" start="2017-07-12" duration="8" complete="0" expand="true">
+                    <depend id="527" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="527" name="Move to GEF2 + growth" color="#9933ff" meeting="false" start="2017-07-20" duration="80" complete="0" expand="true"/>
+            </task>
+            <task id="535" name="Vernalize Wheat Increase" color="#006666" meeting="false" start="2017-06-30" duration="126" complete="0" expand="true">
+                <task id="536" name="Plant wheat + Growth" color="#006666" meeting="false" start="2017-06-30" duration="10" complete="0" expand="true">
+                    <notes><![CDATA[Provided something actually grows...]]></notes>
+                    <depend id="537" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="537" name="Place in Vernalization chamber" color="#006666" meeting="false" start="2017-07-10" duration="42" complete="0" expand="true">
+                    <depend id="731" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="731" name="Re-plant to 4 or 8&quot; pots + grow" color="#006666" meeting="false" start="2017-08-21" duration="14" complete="0" expand="true">
+                    <depend id="734" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="734" name="Place out in GEF _ Growth" color="#006666" meeting="false" start="2017-09-04" duration="60" complete="0" expand="true"/>
+                <task id="538" name="water" color="#006666" meeting="false" start="2017-07-13" duration="1" complete="0" expand="true"/>
+                <task id="539" name="water" color="#006666" meeting="false" start="2017-07-20" duration="1" complete="0" expand="true"/>
+                <task id="556" name="water" color="#006666" meeting="false" start="2017-07-27" duration="1" complete="0" expand="true"/>
+                <task id="554" name="water" color="#006666" meeting="false" start="2017-08-03" duration="1" complete="0" expand="true"/>
+                <task id="558" name="water" color="#006666" meeting="false" start="2017-08-10" duration="1" complete="0" expand="true"/>
+                <task id="560" name="water" color="#006666" meeting="false" start="2017-08-17" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Michelle Demers" function="Default:1" contacts="michelle.demers@sydney.edu.au" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
